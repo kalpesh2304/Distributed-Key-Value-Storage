@@ -12,8 +12,6 @@ import(
 	"distributed-hashing/server/handler"
 )
 
-
-
 func main(){
 
 	port := "9001"

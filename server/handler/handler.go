@@ -187,12 +187,4 @@ func handleDelete(w http.ResponseWriter, r *http.Request){
 		http.Error(w, err.Error() , http.StatusNotFound)
 	}
 
-	// _, ok := store.Load(key)
-	// if ok {
-	// 	store.Delete(key)
-	// 	fmt.Fprintf(w, "Deleted: %s", key)
-	// } else {
-	// 	fmt.Printf("Key: %v node not present", key)
-	// 	http.NotFound(w, r)
-	// }
 }
