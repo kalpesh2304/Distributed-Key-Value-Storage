@@ -15,7 +15,7 @@ var setCmd = `curl -X POST "http://localhost:9004/set?key=user123" \
      -H "Content-Type: application/json" \
      -d '{
            "data": {
-               "name": "roshan",
+               "name": "Kalpesh",
                "age": 25,
                "tags": ["go", "dev"],
                "meta": {

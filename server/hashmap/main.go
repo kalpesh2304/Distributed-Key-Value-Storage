@@ -26,7 +26,7 @@ func main() {
 		wg.Add(1)
 		go func(i int){
 			defer wg.Done()
-			name := "Roshan" + strconv.Itoa(i)
+			name := "Kalpesh" + strconv.Itoa(i)
 			age := i 
 			user := User{Name: name, Age: age}
 			err := hm.Put(name, user)
@@ -44,7 +44,7 @@ func main() {
 		wg.Add(1)
 		getKeyGoRountine := func(i int){
 			defer wg.Done()
-			name := "Roshan" + strconv.Itoa(i)
+			name := "Kalpesh" + strconv.Itoa(i)
 
 			data, err := hm.Get(name)
 			if err != nil {
@@ -59,7 +59,7 @@ func main() {
 
 	for i := 0 ; i < 18 ; i = i + 3{
 		deleteKeyGoRountine := func (i int){
-			name := "Roshan" + strconv.Itoa(i)
+			name := "Kalpesh" + strconv.Itoa(i)
 			err := hm.Delete(name)
 			if err != nil {
 				fmt.Printf("Error while deleing %v : %v", name, err)
@@ -70,7 +70,7 @@ func main() {
 
 	for i := 0 ; i < 18 ; i++{
 
-		name := "Roshan" + strconv.Itoa(i)
+		name := "Kalpesh" + strconv.Itoa(i)
 
 		data, err := hm.Get(name)
 		if err != nil {

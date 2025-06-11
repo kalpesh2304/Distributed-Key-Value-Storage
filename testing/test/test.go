@@ -28,7 +28,7 @@ func UnitTesting(){
 		wg.Add(1)
 		go func(i int){
 			defer wg.Done()
-			name := "Roshan" + strconv.Itoa(i)
+			name := "Kalpesh" + strconv.Itoa(i)
 			key := "user" + strconv.Itoa(i)
 			age := i 
 			user := User{Name: name, Age: age}
@@ -117,7 +117,7 @@ func UnitTesting(){
 		wg.Add(1)
 		overwriteKeyGoRountine := func(i int){
 			defer wg.Done()
-			name := "Roshan-overwrite" + strconv.Itoa(i)
+			name := "Kalpesh-overwrite" + strconv.Itoa(i)
 			key := "user" + strconv.Itoa(i)
 			age := i 
 			user := User{Name: name, Age: age}

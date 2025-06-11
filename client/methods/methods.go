@@ -80,7 +80,7 @@ func GetValue(key string) ([]byte, error){
 	// }else if resp.StatusCode == http.StatusOK {
 	// 	var value interface{}
 	// 	body, _ := io.ReadAll(resp.Body)
-	// 	LOG.Info("body", body, "roshan")
+	// 	LOG.Info("body", body, "Kalpesh")
 	// 	fmt.Printf("body: %v",body)
 	// 	//err := json.Unmarshal(body, &value)
 	// 	bodyStr := string(body)
