@@ -22,7 +22,6 @@ run-all:
 test:
 	go run client/main.go
 
-
 clean:
 	rm -f server9001.log server9002.log server9003.log
 	@echo "Cleaned log files."

@@ -60,5 +60,3 @@ curl -X GET "http://localhost:9004/get?key=user123"
 
 # Delete data
 curl -X DELETE "http://localhost:9004/get?key=user123"
-
-
