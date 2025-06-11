@@ -6,7 +6,6 @@ all:
 	@echo "  make test      # Run test suite only"
 	@echo "  make clean     # Clean background processes/logs (if needed)"
 
-
 run-all:
 	@echo "Starting servers on ports 9001, 9002, and 9003..."
 	# Start servers in background, output logs to files.
