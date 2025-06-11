@@ -12,7 +12,6 @@ get key value function:
 	same as above.
 delete key same as above.*/
 
-
 package main
 
 import(

@@ -115,4 +115,3 @@ func (h *HashRing) GetNode(key string) string{
 	return h.nodes[targetedHash]
 
 }
-

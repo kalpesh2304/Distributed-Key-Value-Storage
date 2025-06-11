@@ -20,4 +20,3 @@ func InitLogger(logPath string) logr.Logger {
 	return logger
 
 }
-
